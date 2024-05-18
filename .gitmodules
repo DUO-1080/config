@@ -1,0 +1,9 @@
+[submodule "alacritty/themes"]
+	path = alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme.git
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/DUO-1080/nvim.git
+[submodule "tmux/plugins/tmux-everforest"]
+	path = tmux/plugins/tmux-everforest
+	url = https://github.com/TanglingTreats/tmux-everforest.git
