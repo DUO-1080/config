@@ -7,12 +7,15 @@ startup_mode = "Maximized"
 
 [font]
 size = 16
+normal = { family = "JetBrainsMono Nerd Font" }
+offset = { y = 3, x = 1 }
 
 [env]
 TERM = "xterm-256color"
 
-# [shell]
-# program = "tmux"
+[shell]
+program = "/bin/zsh"
+args = ["-l", "-c", "tmux new-session"]
 
 # correct alacritty key-code, so that neovim mappings can work normally.
 [[keyboard.bindings]]
@@ -24,3 +27,11 @@ mods = "Shift"
 chars = "\u001B[13;5u"
 key = "Return"
 mods = "Control"
+
+
+[[keyboard.bindings]]
+key = "A"
+mods = "Command"
+chars = "\u0002"
+# action = "SendString"
+# string = "\u{02}"  # Ctrl + b (0x02 in hexadecimal)
