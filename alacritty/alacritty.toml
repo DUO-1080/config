@@ -15,7 +15,7 @@ TERM = "xterm-256color"
 
 [shell]
 program = "/bin/zsh"
-args = ["-l", "-c", "tmux new-session"]
+args = ["-l", "-c", "~/.config/alacritty/start-tmux.sh"]
 
 # correct alacritty key-code, so that neovim mappings can work normally.
 [[keyboard.bindings]]
