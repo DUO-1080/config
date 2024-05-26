@@ -28,8 +28,8 @@ chars = "\u001B[13;5u"
 key = "Return"
 mods = "Control|Shift"
 
-[[keyboard.bindings]]
-chars = "\u0002"
-key = "A"
-mods = "Alt"
+# [[keyboard.bindings]]
+# chars = "\u0002"
+# key = "A"
+# mods = "Alt"
 # string = "\u{02}"  # Ctrl + b (0x02 in hexadecimal)
