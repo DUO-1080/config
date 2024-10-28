@@ -3,6 +3,8 @@
 !nvim/**
 !alacritty/
 !alacritty/**
+!wezterm/
+!wezterm/**
 !tmux/
 !tmux/**
 !.clang-tidy

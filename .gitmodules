@@ -7,3 +7,6 @@
 [submodule "tmux/plugins/tmux-everforest"]
 	path = tmux/plugins/tmux-everforest
 	url = https://github.com/TanglingTreats/tmux-everforest.git
+[submodule "wezterm"]
+	path = wezterm
+	url = git@github.com:DUO-1080/wezterm.git
